@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admins space</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UT-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300&display=swap" rel="stylesheet">
+<style>
+
+body
+{margin: 0;
+font-family: 'Inter', sans-serif;
+}
+.back
+{
+ background-size: cover;
+ background-repeat: no-repeat;
+background-image:url('bgad.jpg');
+position: absolute;
+left: 0px;
+top: 0px;
+z-index: -1;
+width: 100%;
+height: 1000px;
+ -webkit-filter: blur(5px);
+}
+
+
+.sign
+{
+    position: relative;
+    height: 450px;
+    width:400px ;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 20px ;
+    box-shadow: 1px 10px 60px 10px black
+
+}
+
+.sign h2
+{
+    text-align: center;
+    color: purple;
+    word-spacing: 8px;
+    font-size: 6x;
+    
+}
+
+
+.sign div
+{padding-top: 20px;
+padding-top: 20px;
+padding-left: 45px;
+}
+
+input
+{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: purple;
+    text-align: center;
+}
+
+
+#sub
+{background-color: purple;
+border-color:purple;
+margin-top: 10px;
+font-size: larger;
+color: white;
+cursor: pointer;}
+
+
+#hov :hover
+{
+    background-color: rgb(163, 1, 163);
+border-color: rgb(163, 1, 163);
+}
+</style>
+</head>
+<body>
+    
+<div class="back">
+
+</div>
+
+<div class="sign">
+    <h2>
+        Entrer your infomations 
+    </h2>
+    
+<form method="post" action="modify_act.php">
+
+<div ><input id="info"  type="text" name="idd" placeholder="id activity"></div>
+<hr>
+<div ><input id="info"  text="text" name="type" placeholder="type" ></div><div id="hov"> <input id="sub" type="submit" name="mod1" value="modify"> </div>
+<div ><input id="info"  text="number" name="duree" placeholder="duration"></div><div id="hov"> <input id="sub" type="submit" name="mod2" value="modify"> </div>
+</form>
+
+
+</div>
+
+</body>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="adminstyle.css">
+
+<style>
+
+.back
+{
+ background-size: cover;
+ background-repeat: no-repeat;
+background-image:url('bgad.jpg');
+position: absolute;
+left: 0px;
+top: 0px;
+z-index: -1;
+width: 100%;
+height: 100%;
+ -webkit-filter: blur(5px);
+}
+
+.search
+{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 360px;
+}
+
+input
+{
+    width: 600px;
+    height: 50px;
+    margin: 0;
+    border: solid 1px rgb(173, 173, 173);
+    border-radius: 30px;
+    background-color: white;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.746), 0 10px 20px 0 rgba(80, 80, 80, 0.19);
+    padding-left: 20px;
+    margin-top: 7px;
+}
+
+#bs
+{
+    width: 80px;
+    height: 53px;
+    margin: 0;
+    background-color: purple;
+    margin-left: 5px;
+    border-radius: 30px;
+    border: solid 1px purple;
+    color: white;
+    padding-right: 18px ;
+   cursor: pointer;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.746), 0 10px 20px 0 rgba(80, 80, 80, 0.19);
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="back">
+  
+</div>
+<div class="search">
+    <form method="post" action="supprimer_activity.php">
+    <input type="text" name="idd" placeholder=" id activity to drop"> 
+   
+   <input id="bs" name="rm" type="submit" value="Done">
+</form>
+</div>
+   
+</body>
+</html>
+
