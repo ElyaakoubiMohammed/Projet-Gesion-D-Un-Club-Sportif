@@ -1,0 +1,161 @@
+body
+{margin-top:0 ;
+margin-left: 0;
+margin-right: 0;
+margin-bottom: 0;
+font-family: 'Inter', sans-serif;}
+
+.contains
+{
+    background-image: url('images/gigachad.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+#logo
+{
+    margin-left: 580px;
+}
+
+
+
+
+
+#su
+ {display: block;
+  color: rgb(0, 0, 0);
+  background-color: rgba(241, 241, 248, 0.796);
+  height: 550px;
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 450px;
+  border: solid  rgba(241, 241, 248, 0.796);
+  border-radius: 30px;
+  box-shadow:0 8px 16px 0 rgb(0, 0, 0), 0 10px 20px 0 rgba(80, 80, 80, 0.19);
+  padding-left: 10px;
+  padding-bottom: 60px;
+}
+#su h1
+{
+    text-align: center;
+    color: orange;
+    word-spacing: 8px;
+}
+#su p
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#info , #subm , select
+{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.397);
+    box-shadow:0 8px 16px 0 rgba(61, 61, 61, 0.186), 0 6px 20px 0 rgba(130, 130, 130, 0.19);
+    text-align: center;
+}
+select
+{
+    height: 40px;
+    width: 410px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.397);
+    box-shadow:0 8px 16px 0 rgba(61, 61, 61, 0.186), 0 6px 20px 0 rgba(130, 130, 130, 0.19);
+    text-align: center;
+}
+
+#subm
+{background-color: orange;
+border-color:orange;
+margin-top: 25px;
+font-size: larger;
+color: white;
+cursor: pointer;}
+
+
+#hov :hover
+{
+    background-color: rgb(255, 157, 0);
+    border-color: rgb(255, 157, 0);
+}
+
+
+#su div
+{padding-bottom: 2px;
+padding-left: 40px;
+padding-top: 10px;}
+
+
+
+#info2
+{
+    padding-top: 20px;
+    padding-bottom: 60px;      
+    background-color: black;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+
+#logo2
+{
+    padding-left: 40px;
+}
+
+#lhalf
+{  
+    padding-right: 150px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#rhalf
+{
+    padding-left: 70px;
+    line-height: 60px;
+    text-align: left;
+    border-left: solid white;
+
+}
+
+
+
+
+.fa {
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.fa-twitter {
+  background: #ffffff;
+  color: rgb(0, 0, 0);}
+
+  .fa-facebook {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+

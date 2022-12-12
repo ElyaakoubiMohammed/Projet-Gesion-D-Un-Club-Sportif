@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GIGA fitness club</title>
+<meta charset="UT-8">
+<link rel="stylesheet" href="mystyle2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300&display=swap" rel="stylesheet">
+
+
+ </head>
+
+ <body>
+
+    <section class="contains">
+
+<div id="logo">
+
+<a href="homepage.html"><img src="images/logo2.png" height="100px"></a>
+
+</div>
+
+<div id="su">
+
+    <h1>JOIN THE GIGA FAM</h1>
+    <p>to keep you updated on our last offers </p>
+
+<form method="post" action="join.php">
+
+<div><input required id="info" type="text" placeholder="Name" name="name"></div>
+<div> <input required id="info"  type="text" placeholder="Last name" name="lname"></div>
+<div><input required id="info" value="" name="emal" placeholder="E-mail" required="" autofocus="" oninvalid="this.setCustomValidity('Not Valid')" oninput="setCustomValidity('')" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></div>
+<div><input required id="info" type="text" placeholder="phone number" name="phone"></div>
+
+<div> 
+    <select required name="city">
+     <option selected>City</option>
+     <option>Casablanca</option>
+     <option>Rabat</option>
+     <option>Agadir</option>
+     <option>Tangier</option>
+     <option>Oujda</option>
+    </select>
+</div>  
+
+<div>
+   <select required name="gender">
+     <option selected>Gender</option>
+     <option>Female</option>
+     <option>Male</option>
+    </select>
+</div>
+
+<div>
+    <select required name="subscription">
+     <option selected>subscription</option>
+     <option>Giga subscription</option>
+     <option>Premium subscription</option>
+    </select>
+</div>
+
+<div id="hov"><input id="subm" type="submit" name="add" value="Join"> </div>
+
+</form>
+
+</div>
+
+</section>
+
+
+<div id="info2">
+    <div id="logo2">
+        <img src="images/Giga fitness.png" height="150px">
+    </div>
+    
+    <div id="lhalf">
+        <h1>The best fitness club <br> to get in shape <br> & lead a healthy life. </h1>
+    </div>
+    
+    <div id="rhalf"> 
+    <h3>Tel: 05.22.**.**.** <br> Adress: 137 Rue Al Bakri, Casablanca 20250 <br></h3>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    </div>
+    
+    </div>
+
+ </body>
+ </html>
